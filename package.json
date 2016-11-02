@@ -1,0 +1,25 @@
+{
+  "name": "node-riemann",
+  "version": "0.0.1",
+  "description": "A simple client to push metrics onto the riemann server",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive tests/"
+  },
+  "author": "Koushik R",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koushikr/node-riemann.git"
+  },
+  "dependencies": {
+    "appmetrics": "1.0.13",
+    "stats-lite": "2.0.3",
+    "log4js": "0.6.36",
+    "config": "1.21.0",
+    "riemann": "~1.0.1",
+    "chai": "^3.5.0",
+    "custom-error-generator": "^7.0.0",
+    "mocha": "^3.1.2"
+  },
+  "devDependencies": {}
+}
